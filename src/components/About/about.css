@@ -1,0 +1,47 @@
+
+.about {
+  background-color: #000;
+  background-size: cover;
+}
+.element {
+  align-items: center;
+  border-radius: 41px;
+  color: white;
+  background-color: #000;
+  box-shadow: 18px 18px 20px #afafaf60, -18px -18px 20px #ffffff31;
+
+  border-radius: 80px;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin-right: 4rem;
+  width: 900px;
+}  
+.moonImg{
+  margin-top: -21em;
+  margin-left: 15em;
+}
+@media only screen and (max-width: 1200px) {
+.element{
+   margin: auto;
+   width: 700px;
+margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+.moonImg {
+  margin-top: -16em;
+  margin-left: 2em;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+  .element {
+    width: 500px;
+  }
+  .moonImg {
+    opacity: 0;
+    margin-top: -14em;
+    margin-left: 0em;
+}
+}

@@ -1,0 +1,8 @@
+.sponsers{
+    -webkit-filter: blur(10px);  
+     filter: blur(10px);
+      /* background-image: url('../../assets/session-bg.jpg'); */
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* background-color: #fff; */
+}

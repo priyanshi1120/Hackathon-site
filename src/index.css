@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+section {
+  height: 100vh;
+}
+h1 {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: #ddd;
+  font-size: 7.5em;
+  font-weight: bolder;
+  letter-spacing: 0.2em;
+}
+h1 span {
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1s linear forwards;
+}
+video{
+  object-fit: cover;
+  margin-left:20px ;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0);
+  }
+}
+h1 span:nth-child(1){
+  animation-delay: 1s;
+}
+h1 span:nth-child(2){
+  animation-delay: 1.5s;
+}
+h1 span:nth-child(3){
+  animation-delay: 2s;
+}
+h1 span:nth-child(4){
+  animation-delay: 2.5s;
+}
+h1 span:nth-child(5){
+  animation-delay: 3s;
+}
+h1 span:nth-child(6){
+  animation-delay: 3.5s;
+}
+h1 span:nth-child(7){
+  animation-delay: 4s;
+}
+h1 span:nth-child(8){
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(9){
+  animation-delay: 5s;
+}
+.countdown-container {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1; /* Ensure the countdown is above the video */
+}
+.firstSubtitle{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+.session-layout-text {
+  animation: animate2 5s linear infinite;
+  outline: none;
+ color:#fff;
+}
+@keyframes animate2 {
+  0%, 18% , 20% , 50.1% , 60% , 65.1% , 80% , 90.1% , 92%{
+    color: #969797;
+    text-shadow: none;
+  }
+  18.1%,20.1%, 30% , 50% , 60.1% ,65%, 65.1%, 100%{
+    color: #fff;
+    /* box-shadow: 0 0 10px #03bcf4; */
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 60px #fff,
+    0 0 80px #fff,
+    0 0 160px #fff,
+  }
+  
+}
+
+
+.session-content {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+.blur-div {
+  -webkit-filter: blur(10px);  
+  filter: blur(10px);
+}
+
+@media only screen and (max-width: 1200px) {
+  section{
+    height: fit-content;
+  }
+  h1 span{
+    font-size: 80px;
+  
+  };
+  .organising-team-container{
+    height: fit-content;
+  }
+  .session-layout-text {
+  font-size: 3.25rem;
+  }
+  .sponser-container{
+    padding-top: 22em;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  h1{
+    top: 15%;
+  }
+ 
+  h1 span {
+    font-size: 50px;
+  
+  }
+ 
+  .countdown-container {
+    top: 116%;
+  }
+  .sponser-container{
+    padding-top: 36em;
+  }
+}
