@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Hackathon-site/static/css/main.e4ff28a2.css",
+    "main.js": "/Hackathon-site/static/js/main.b7b46d47.js",
+    "static/media/smoke.gif": "/Hackathon-site/static/media/smoke.02007ba98320780a5888.gif",
+    "static/media/moon.png": "/Hackathon-site/static/media/moon.fc4b8182910ccbf23146.png",
+    "static/media/judge1.jpeg": "/Hackathon-site/static/media/judge1.ca0991c3718bbb1a9c73.jpeg",
+    "static/media/Screenshot 2023-08-25 163625.png": "/Hackathon-site/static/media/Screenshot 2023-08-25 163625.fe9ef9fb48f2c4ddaee5.png",
+    "index.html": "/Hackathon-site/index.html",
+    "main.e4ff28a2.css.map": "/Hackathon-site/static/css/main.e4ff28a2.css.map",
+    "main.b7b46d47.js.map": "/Hackathon-site/static/js/main.b7b46d47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4ff28a2.css",
+    "static/js/main.b7b46d47.js"
+  ]
+}
